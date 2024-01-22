@@ -1,0 +1,10 @@
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: larger;
+
+}
+fieldset{
+    border-radius: 20;
+    border-color: aquamarine;
+}
