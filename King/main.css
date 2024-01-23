@@ -1,10 +1,29 @@
-label{
-    display: block;
-    margin-bottom: 10px;
-    font-size: larger;
-
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: larger;
 }
-fieldset{
-    border-radius: 20;
-    border-color: aquamarine;
+fieldset {
+  border-radius: 20;
+  border-color: aquamarine;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+nav ul li a {
+    padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+nav li a:hover {
+  background: red;
+  color: white;
+  border-radius: 10px;
+  transition: all ease-in-out 300ms;
 }
